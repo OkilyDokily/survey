@@ -15,13 +15,14 @@ $(document).ready(function(){
     $(".favoritenumber").text(number);
     $(".favoritefood").text(favoriteFood);
     $(".favoritesubject").text(favoriteSubject);
+    $(".birthdate").text(birthdate);
+
+
     $(".favoritecolor").css({
       "backgroundColor": favoriteColor,
       "height":"25px",
       "width":"25px"
     });
-    $(".birthdate").text(birthdate);
-
     $(".survey-results").show();
     debugger;
   });
