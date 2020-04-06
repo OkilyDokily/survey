@@ -3,7 +3,7 @@ $(document).ready(function(){
   
   $("#formOne").submit(function(e){
     e.preventDefault();
-    var number = $("#favoritenumber").val();
+    var favoriteNumber = $("#favoritenumber").val();
     var favoriteColor = $("#favoritecolor").val();
     
     var favoriteFood = $("#favoritefood").val();
@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 
 
-    $(".favoritenumber").text(number);
+    $(".favoritenumber").text(favoriteNumber);
     $(".favoritefood").text(favoriteFood);
     $(".favoritesubject").text(favoriteSubject);
     $(".birthdate").text(birthdate);
