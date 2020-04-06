@@ -23,7 +23,7 @@ $(document).ready(function(){
       "height":"25px",
       "width":"25px"
     });
-    $(".survey-results").show();
+    $(".survey-results").slideDown();
     debugger;
   });
 
